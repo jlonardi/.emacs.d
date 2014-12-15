@@ -161,7 +161,12 @@
  '(coffee-tab-width 2)
  '(custom-safe-themes
    (quote
-    ("96998f6f11ef9f551b427b8853d947a7857ea5a578c75aa9c4e7c73fe04d10b4" "e9776d12e4ccb722a2a732c6e80423331bcb93f02e089ba2a4b02e85de1cf00e" "0c29db826418061b40564e3351194a3d4a125d182c6ee5178c237a7364f0ff12" default))))
+    ("96998f6f11ef9f551b427b8853d947a7857ea5a578c75aa9c4e7c73fe04d10b4" "e9776d12e4ccb722a2a732c6e80423331bcb93f02e089ba2a4b02e85de1cf00e" "0c29db826418061b40564e3351194a3d4a125d182c6ee5178c237a7364f0ff12" default)))
+ '(ecb-layout-name "left14")
+ '(ecb-layout-window-sizes nil)
+ '(ecb-options-version "2.40")
+ '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
+ '(ecb-tip-of-the-day nil))
 
 (require 'evil)
   (evil-mode 1)
@@ -215,16 +220,7 @@
 (defalias 'ack-find-file 'ack-and-a-half-find-file)
 (defalias 'ack-find-file-same 'ack-and-a-half-find-file-same)
 
-(custom-set-variables
-;; custom-set-variables was added by Custom.
-;; If you edit it by hand, you could mess it up, so be careful.
-;; Your init file should contain only one such instance.
-;; If there is more than one, they won't work right.
-'(ecb-layout-name "left14")
-'(ecb-layout-window-sizes (quote (("left14" (0.2564102564102564 . 0.6949152542372882) (0.2564102564102564 . 0.23728813559322035)))))
-'(ecb-options-version "2.40")
-'(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
-'(ecb-tip-of-the-day nil))
+
 
 (defvar default-ecb-source-path (list '("~/Documents/workspace" "Workspace")
 								 '("~/" "~/")
@@ -239,3 +235,12 @@
 					(push (list path-dir path-dir) default-ecb-source-path)
 					(customize-set-variable 'ecb-source-path default-ecb-source-path)
 					))))))
+					
+(require 'windmove)
+(windmove-default-keybindings 'meta)
+
+(global-set-key (kbd "<S-left>") 'previous-buffer) 
+(global-set-key (kbd "<S-right>") 'next-buffer)
+
+;; cycle through buffers with Ctrl-Tab (like Firefox)
+(global-set-key (kbd "<C-tab>") 'bury-buffer)
