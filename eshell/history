@@ -1,0 +1,65 @@
+ls
+cd ..
+cd ..
+cd ..
+c d..
+cd..
+cd..
+cd ..
+cd ..
+cd ..
+gulp check
+cd ..
+cd ..
+cd ..
+cd..
+cd..
+cd ..
+cd..
+cd..
+cd ..
+cd ..
+cd ..
+cd ../../../
+cd ..
+gulp check
+gulp integrationTest
+gulp integrationTest
+gulp integrationTest
+gulp integrationTest --api http://localhost
+git status
+git add .
+git commit -m "siistitty scriptia"
+karma start
+cd ..
+cd ..
+cd..
+cd..
+cd..
+cd ..
+cd ..
+cd ..
+cd ..
+clear
+karma start
+karma start
+ack
+ack "png"
+ack
+ack man
+ack --help
+cd ..
+ cd..
+cd ..
+ cd..
+ cd..
+ cd..
+cd ..
+cd ../../..
+cd Client/
+ls
+cd ..
+ls
+launch_dev.bat
+launch_dev.bat
+launch_dev.bat

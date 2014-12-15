@@ -1,0 +1,88 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("c:/Users/jarno.lonardi/AppData/Roaming/.emacs.d/" . "customizations/")
+ ("c:/Users/jarno.lonardi/AppData/Roaming/" . ".emacs.d/")
+ ("c:/Users/jarno.lonardi/AppData/" . "Roaming/")
+ ("c:/Users/jarno.lonardi/" . "AppData/")
+ ("c:/Users/" . "jarno.lonardi/")
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/js/src/modules/rakennusmassat/" . "configurator/")
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/js/src/modules/" . "rakennusmassat/")
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/js/src/" . "modules/")
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/js/" . "src/")
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/" . "Testing/")
+ ("c:/repot/ui/Haahtela.Kustannustieto/" . "Client/")
+ ("c:/repot/ui/" . "Haahtela.Kustannustieto/")
+ ("c:/repot/" . "ui/")
+ ("c:/" . "Users/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "c:/repot/ui/Haahtela.Tools.Docsbrowser/"
+ "c:/Users/jarno.lonardi/AppData/Roaming/.emacs.d/"
+ "c:/repot/ui/Haahtela.Kustannustieto/Client/Testing/"
+ "c:/Users/jarno.lonardi/AppData/Roaming/.emacs.d/customizations/"
+ "c:/repot/ui/Haahtela.Kustannustieto/Client/js/src/modules/rakennusmassat/configurator/"
+ "c:/repot/ui/Haahtela.Kustannustieto/Client/js/src/modules/rakennusmassat/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "api-url.txt"
+ "setup-js.el"
+ "rakennusmassatConfigurator.js"
+ "router.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/repot/ui/Haahtela.Tools.Docsbrowser/" (21637 46303 0 0) "theme/" "src/" "README.md" "package.json" "node_modules/" "make.bat" "install.js" "gulpfile.js" "docs/" "config/" "../" "./")
+
+ ("c:/emacs/bin/" (21641 50060 0 0) "xargs.exe" "updatedb" "runemacs.exe" "regex2.dll" "pcre3.dll" "locate.exe" "libXpm.dll" "libintl3.dll" "libiconv2.dll" "grep.exe" "grep-changelog" "find.exe" "fgrep.exe" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.4.exe" "egrep.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+
+ ("c:/repot/ui/" (21641 20931 0 0) "pre-commit-config.txt" "pre-commit" "Haahtela.Tools.Docsbrowser/" "Haahtela.Kustannustieto/" "apibrowser/" ".gitignore" ".git/" "../" "./")
+
+ ("c:/repot/ui/Haahtela.Kustannustieto/" (21641 20931 0 0) "template.hbs" "scripts/" "README.md" "package.json" "obj/" "node_modules/" "launch_dev.bat" "install.bat" "host_dev.bat" "Haahtela.Kustannustieto.UI.v11.suo" "Haahtela.Kustannustieto.UI.sln" "Haahtela.Kustannustieto.UI.csproj.user" "Haahtela.Kustannustieto.UI.csproj.orig" "Haahtela.Kustannustieto.UI.csproj" "Client/" "builder.js" "bin/" "../" "./")
+
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/" (21641 20931 0 0) "Testing/" "test-main.js" "taku/" "scripts/" "README.md" "r.js" "package.json" "out.log" "node_modules/" "locale/" "karma.conf.js" "js/" "integration.conf.js" "integration-init.conf.js" "integration-host.js" "install.js" "index.html" "images/" "gulpfile.js" "fonts/" "Documentation/" "dist/" "dev_host.js" "Deployment/" "css/" ".jshintrc" "../" "./")
+
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/js/" (21640 27876 0 0) "testing/" "src/" "pre-load/" "main.js" "libs/" "client.min.js.map" "client.min.js" "api-testing.js" "../" "./")
+
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/js/src/" (21641 20931 0 0) "tests/" "router.js" "modules/" "models/" "gateway.js" "eventbus.js" "controller.js" "collections/" "app.js" "../" "./")
+
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/js/src/modules/common/" (21613 40482 0 0) "views/" "utils/" "modules/" "models/" "mixins/" "links.js" "components/" "../" "./")
+
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/js/src/modules/common/components/" (21641 20931 0 0) "topicComponent.jsx" "topic/" "ToggleBtn.jsx" "tests/" "sListView.jsx" "sList/" "sideComponent.jsx" "mainContent.jsx" "layoutComponent.jsx" "footerComponent.jsx" "editableComponent.jsx" "docs/" "contextMenu.jsx" "cardComponent/" "BtnComponent.jsx" "../" "./")
+
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/js/src/modules/common/components/sList/" (21641 24052 0 0) "listRow.jsx.orig" "listRow.jsx" "listHeader.jsx" "listCellData.jsx.orig" "listCellData.jsx" "listCell.jsx.orig" "listCell.jsx" "listBody.jsx.orig" "listBody.jsx" "editableCell.jsx" "classSelectors.js" "ActionForm.jsx" "../" "./")
+
+ ("c:/Users/jarno.lonardi/AppData/Roaming/.emacs.d/" (21640 20445 0 0) "themes/" "README.md" "projectile.cache" "projectile-bookmarks.eld" "places" "init.el~" "init.el" "ido.last" "eshell/" "elpa/" "customizations/" "backups/" "auto-save-list/" "ac-comphist.dat" ".smex-items" ".recentf" ".gitignore" ".git/" "#init.el#" "../" "./")
+
+ ("c:/Users/jarno.lonardi/AppData/Roaming/" (21639 7809 0 0) "WinLess/" "SvcPerf/" "Sublime Text 3/" "Sublime Text 2/" "Spotify/" "NuGet/" "npm-cache/" "npm/" "Notepad++/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Media Center Programs/" "JSLintOptions.xml" "Intel Corporation/" "Identities/" "bower/" "Adobe/" ".emacs.d/" "#message-20141202-193406#" "#.emacs#" "../" "./")
+
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/Testing/" (21640 6278 0 0) "tests/" "scripts/" "runner.html" "phantom-runner.bat" "library/" "inteq_laskelma.json" "config.json" "api-runner.html" "../" "./")
+
+ ("c:/Users/jarno.lonardi/AppData/Roaming/.emacs.d/customizations/" (21637 21098 0 0) "ui.el~" "ui.el" "themes.el~" "themes.el" "shell-integration.el" "setup-js.el~" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
+
+ ("c:/Users/jarno.lonardi/AppData/" (21535 59051 0 0) "Roaming/" "OICE_15_974FA576_32C1D314_1606/" "LocalLow/" "Local/" "../" "./")
+
+ ("c:/Users/jarno.lonardi/" (21637 28884 0 0) "viesti.txt" "Videos/" "Verkkoympäristö/" "Tulostinympäristö/" "SkyDrive/" "Sendto/" "Searches/" "Saved Games/" "Recent/" "Pictures/" "Omat tiedostot/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "Music/" "mercurial.ini" "Mallit/" "Local Settings/" "Links/" "Käynnistä-valikko/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".thumbnails/" ".rediscli_history" ".kdiff3rc" ".gimp-2.8/" ".config/" "../" "./")
+
+ ("c:/Users/" (21370 63073 0 0) "Public/" "MSSQL$SQLEXPRESS/" "jarno.lonardi/" "desktop.ini" "Default User/" "Default/" "ASP.NET V4.0 Integrated/" "asennus/" "All Users/" "administrator/" "../" "./")
+
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/js/src/modules/rakennusmassat/configurator/" (21637 33007 0 0) "rakennusmassatConfigurator.js" "kerroksetConfigurator.js" "../" "./")
+
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/js/src/modules/rakennusmassat/" (21637 33007 0 0) "views/" "router.js" "models/" "links.js" "configurator/" "components/" "../" "./")
+
+ ("c:/repot/ui/Haahtela.Kustannustieto/Client/js/src/modules/" (21613 40482 0 0) "tilaluettelo/" "roa/" "rakennusmassat/" "mitoitus/" "links.js" "laskelma/" "hanketiedot/" "common/" "../" "./")
+
+ ("c:/repot/" (21565 462 0 0) "ui/" "sole/" "database/" "data/" "../" "./")
+
+ ("c:/emacs/" (21629 65361 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
