@@ -2,6 +2,19 @@
 ;; Packages
 ;;;;
 
+(prefer-coding-system 'utf-8)
+(set-default-coding-systems 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+;; backwards compatibility as default-buffer-file-coding-system
+;; is deprecated in 23.2.
+(if (boundp 'buffer-file-coding-system)
+    (setq-default buffer-file-coding-system 'utf-8)
+  (setq default-buffer-file-coding-system 'utf-8))
+
+;; Treat clipboard input as UTF-8 string first; compound text next, etc.
+(setq x-select-request-type '(UTF8_STRING COMPOUND_TEXT TEXT STRING))
+
 ;; Define package repositories
 (require 'package)
 (add-to-list 'package-archives
@@ -204,7 +217,7 @@
 (global-auto-revert-mode 1)
 (setq auto-revert-check-vc-info t)
 
-(define-key global-map (kbd "RET") 'newline-and-indent)
+;; (define-key global-map (kbd "RET") 'newline-and-indent)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -239,8 +252,11 @@
 (require 'windmove)
 (windmove-default-keybindings 'meta)
 
-(global-set-key (kbd "<S-left>") 'previous-buffer) 
-(global-set-key (kbd "<S-right>") 'next-buffer)
+(global-set-key (kbd "<C-left>") 'previous-buffer) 
+(global-set-key (kbd "<C-right>") 'next-buffer)
 
 ;; cycle through buffers with Ctrl-Tab (like Firefox)
 (global-set-key (kbd "<C-tab>") 'bury-buffer)
+
+(electric-pair-mode 1)
+(electric-indent-mode +1)

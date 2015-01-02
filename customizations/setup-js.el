@@ -35,3 +35,6 @@
  '(coffee-tab-width 2))
 
 (setq js2-highlight-level 3)
+
+(add-hook 'jsx-mode-hook
+          (lambda () (auto-complete-mode 1)))
