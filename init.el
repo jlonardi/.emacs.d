@@ -83,8 +83,6 @@
 
     evil
 
-    projectile
-
     workgroups
 
     auto-complete
@@ -185,8 +183,7 @@
   (evil-mode 1)
 
 (projectile-global-mode)
-(setq projectile-require-project-root nil)
-(setq projectile-enable-caching t)
+;;(setq projectile-enable-caching t)
 (setq projectile-indexing-method 'git)
 ;; (setq projectile-indexing-method 'alien)
 ;; (setq projectile-switch-project-action 'projectile-dired)
@@ -214,7 +211,7 @@
 
 (global-set-key [f5] 'revert-buffer)
 
-(global-auto-revert-mode 1)
+(global-auto-revert-mode t)
 (setq auto-revert-check-vc-info t)
 
 ;; (define-key global-map (kbd "RET") 'newline-and-indent)
